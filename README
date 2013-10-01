@@ -1,0 +1,10 @@
+ Invocations to external systems should be done through the CircuitBreaker[1].
+  
+ This helps in protecting the invoked system if multiple clients try to
+ perform several invocations that are failing.
+
+ This project is a circuit breaker implementation.
+  
+ by Leonardo Leite
+
+ [1] Michael T. Nygard. "Release it!". Pragmatic Bookshelf, 2009.
